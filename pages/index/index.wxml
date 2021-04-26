@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view  class="container" >
+  <view class="section">
+   <navigator url="/pages/searchList/searchList" hover-class="navigator-hover">
+    <view class="search" >搜索美食</view>
+    <image src="../img/search.png"/>
+    </navigator>
+  </view>
+  <!-- 轮播图片 -->
+  <view class="swiper-box">
+    <swiper indicator-dots="{{swiper.indicatorDots}}" indicator-color="{{swiper.indicatorColor}}" indicator-active-color="{{swiper.indicatorActiveColor}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="{{swiper.s}}">
+      <block wx:for="{{swiper.imgUrls}}">
+        <swiper-item>
+            <navigator  data-id="{{item.id}}" url="/pages/yemian/yemian" hover-class="navigator-hover">
+                <image src="{{item.name}}" class="slide-image" />
+           </navigator>
+        </swiper-item>
+        
+      </block>
+    </swiper>
+  </view>
+  <!-- 今日推荐 -->
+  <view class="todayNew">
+    <view class="todayTitle">
+      今日推荐
+    </view>
+    <view class="todayList " >
+       <navigator class="todayItem " wx:for="{{todayListArr}}" data-id="{{item.id}}" url="/pages/yemian/yemian" hover-class="navigator-hover">
+            <image src="{{item.imgUrl}}"/>
+            <text>{{item.text}}</text>
+             <view>{{item.author}}</view>
+        </navigator>
+    </view>
+   
+  </view>
+  <!-- 上拉加载更多 -->
+  <view hidden="{{noMore}}">
+    <view class="loadMore" hidden="{{isLoading}}">上拉加载更多</view>
+    <view class="loadMore" hidden="{{!isLoading}}">加载中...</view>
+  </view>
+  <view class="loadMore" hidden="{{!noMore}}">没有更多数据</view>
+</view>

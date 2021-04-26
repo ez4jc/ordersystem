@@ -1,0 +1,71 @@
+/* pages/yemian/yemian.wxss */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+}
+ */
+ .avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 300rpx;
+  
+}
+.w{
+  padding-top: 200rpx;
+  margin-left: 200rpx;
+}
+.q{
+  margin-left: 200rpx;
+  padding-top: 100rpx;
+}
+.a{
+  margin-top: 00rpx;
+  margin-left:200rpx; 
+   border: 1px solid #ea5a3c;
+    border-radius: 5px;
+  width: 400rpx;
+  height: 80rpx;
+}
+.b{
+  margin-left:200rpx; 
+  margin-top: 00rpx;
+   border: 1px solid #ea5a3c;
+    border-radius: 5px;
+  width: 400rpx;
+  height: 80rpx;
+}
+.journey-container {
+  margin-top: 200rpx;
+  margin-left: 100rpx;
+  border: 1px solid #ea5a3c;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.journey-containert {
+margin-top: -80rpx;
+  margin-left: 440rpx;
+  border: 1px solid #ea5a3c;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.journey {
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #ea5a3c;
+}
+.journeyt {
+  margin-left: rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #ea5a3c;
+}
+page{
+  background-color: #ecc0a8;
+}

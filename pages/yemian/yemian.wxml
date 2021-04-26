@@ -1,0 +1,19 @@
+<!--pages/yemian/yemian.wxml-->
+<image  class='avatar'  src='../img/avatar-5.png'></image>
+  <view class='w'>
+  <text class=''>账号：</text>
+  </view>
+  <input class='a'placeholder="请输入你的账号" ></input>
+  <view class='q'>
+  <text >密码：</text>
+  </view>
+  <input class='b'placeholder="请输入你的密码" ></input>
+  <view bindtap='onTapJump' class='journey-container'>
+    <text class='journey'>登录</text> 
+  </view>
+  <view bindtap='onTapJump' class='journey-containert'>  
+    <text class='journeyt'>注册</text>
+  </view>
+
+
+

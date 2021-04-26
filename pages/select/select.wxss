@@ -1,0 +1,55 @@
+/* pages/select/select.wxss */
+.select-list{
+  width:100%;
+}
+.select-item{
+  width:100%;
+}
+.select-title{
+  width:100%;
+  text-align: center;
+  padding:20rpx 0;
+}
+.select-iconList{
+  width:100%;
+  height:210rpx;
+  text-align: center;
+  overflow: hidden;
+}
+.select-iconitem{
+  margin:14rpx;
+  /* margin-bottom:20rpx; */
+  padding:0 20rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  box-sizing: border-box;
+  border-radius: 70rpx;
+  color:#7ac873;
+  border: 1px solid #7ac873;
+  display:inline-block;
+}
+
+.one-iconList navigator{
+  color:#7ac873;
+   border: 1px solid #7ac873;
+}
+
+.two-iconList navigator{
+  color:#FFA995;
+   border: 1px solid #FFA995;
+}
+
+.three-iconList navigator{
+  color:#A4D9EC;
+  border: 1px solid #A4D9EC;
+}
+
+.four-iconList navigator{
+  color:#FF9332;
+  border: 1px solid #FF9332;
+}
+
+.five-iconList navigator{
+  color:#89B7AD;
+  border: 1px solid #89B7AD;
+}
